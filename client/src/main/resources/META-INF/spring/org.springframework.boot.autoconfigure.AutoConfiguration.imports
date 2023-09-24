@@ -1,0 +1,2 @@
+org.example.open.feature.openflagr.client.flagr.config.FlagrClientConfig
+org.example.open.feature.openflagr.client.FeatureToggleApiProvider

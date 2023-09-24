@@ -1,0 +1,5 @@
+rootProject.name = 'open-feature-openflagr-example'
+include 'client'
+include 'demo'
+include 'demo'
+

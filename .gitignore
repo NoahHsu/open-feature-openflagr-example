@@ -1,0 +1,23 @@
+### Gradle ###
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+out/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.editorconfig
+
+### Eclipse ###
+.classpath
+bin/
+
+### OSX Env ###
+.DS_Store
+
+### LSP for java ###
+.project
+.settings/
