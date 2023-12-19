@@ -6,7 +6,7 @@ dependencies {
     implementation 'io.github.openfeign:feign-jackson'
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
 
-    implementation 'dev.openfeature:sdk:1.5.0'
+    api 'dev.openfeature:sdk:1.5.0'
 
     runtimeOnly 'org.springframework.boot:spring-boot-starter-webflux'
 

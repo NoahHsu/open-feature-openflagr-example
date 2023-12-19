@@ -7,10 +7,10 @@ import org.apache.commons.lang3.StringUtils;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class DemoHelper {
 
-    private static final String RESET = "\033[0m";
-    private static final String GREEN = "\033[0:32m";
-    private static final String BLUE = "\033[0;34m";
-    private static final String PURPLE = "\033[0;35m";
+    public static final String RESET = "\033[0m";
+    public static final String GREEN = "\033[0:32m";
+    public static final String BLUE = "\033[0;34m";
+    public static final String PURPLE = "\033[0;35m";
 
     public static void printStartIteration(int iterationCount) {
         printStartIteration(iterationCount, "");
